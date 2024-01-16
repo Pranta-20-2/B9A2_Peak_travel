@@ -146,6 +146,10 @@ main {
     margin: 0 auto;
 }
 
+.main-1 {
+    margin-bottom: 100px;
+}
+
 .main1-cont {
     /* border: 2px solid red; */
     display: flex;
@@ -178,10 +182,91 @@ main {
     padding-bottom: 22px;
     margin: 0 auto;
 }
-.main1-img img{
+
+.main1-img img {
     width: 100%;
     max-width: 1170px;
 }
-.main1-cont button{
+
+.main1-cont button {
     align-items: flex-end;
 }
+
+/* Main 1-close */
+
+/* Main 2 (Why choose) start */
+.main2-des h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main2-des p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px auto 48px;
+    max-width: 643px;;
+    width: 100%;
+    /* 162.5% */
+
+}
+
+.main2-cont {
+    align-items: center;
+    justify-content: center;
+}
+
+.main2-des {
+    text-align: center;
+}
+
+.main2-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.main2-flex-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.main2-flex-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.main2-box {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    /* Centerize the box */
+    justify-content: center;
+    width: 100;
+}
+
+.box-item {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.main2-flex-1,
+.main2-flex-2,
+.main2-box {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item {
+    padding: 32px;
+}
+
+/* Main 2 (Why choose) close */
