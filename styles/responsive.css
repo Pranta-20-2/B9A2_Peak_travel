@@ -85,13 +85,18 @@
 
     /* Main-1 responsive close*/
     /* Choose your destination start*/
-    .grid-cont1,.grid-cont2,.grid-cont3{
-        grid-template-columns: repeat(1,1fr);
+    .grid-cont1,
+    .grid-cont2,
+    .grid-cont3 {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .grid-cont2,.grid-cont3{
+
+    .grid-cont2,
+    .grid-cont3 {
         flex-direction: column;
-        
+
     }
+
     /* Choose your destination close */
     /* Main 2 (Why choose) start */
     .main2-flex {
@@ -100,12 +105,40 @@
         gap: 20px;
         margin-bottom: 20px;
     }
-    .main2-des p{
+
+    .main2-des p {
         margin: 0 auto 48px;
     }
-    
-    /* Main 2 (Why choose) close */
 
+    /* Main 2 (Why choose) close */
+    .simple {
+        width: 100%;
+
+    }
+
+    /* News */
+    .newslatter {
+        width: 100%;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        max-width: 672px;
+        height: 422px;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    .news-part{
+        width: 100%;
+    }
+
+    .rotate {
+        top: 65%; 
+        left: 25%; 
+        transform: rotate(-22.628deg);
+        margin: 0;
+        max-width: 1170px;
+        width: 60%;
+    }
 }
 
 /* Responsive for medium */
@@ -142,13 +175,15 @@
 
     }
 
-    .grid-cont1{
-        grid-template-columns: repeat(1,1fr);
+    .grid-cont1 {
+        grid-template-columns: repeat(1, 1fr);
 
     }
-    .grid-cont2,.grid-cont3{
+
+    .grid-cont2,
+    .grid-cont3 {
         flex-direction: column;
-        
+
     }
 
     /* Main-1 responsive */
@@ -168,7 +203,32 @@
     }
 
     /* Main-1 responsive close*/
-    /* Main 2 (Why choose) start */
-    /* Main 2 (Why choose) close */
+    .simple {
+        width: 100%;
 
+    }
+    
+    /* News */
+    .newslatter {
+        width: 100%;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        max-width: 672px;
+        height: 422px;
+        flex-shrink: 0;
+        width: 100%;
+    }
+    .news-part{
+        width: 100%;
+    }
+
+    .rotate {
+        top: 65%; 
+        left: 25%; 
+        transform: rotate(-22.628deg);
+        margin: 0;
+        max-width: 1170px;
+        width: 60%;
+    }
 }
