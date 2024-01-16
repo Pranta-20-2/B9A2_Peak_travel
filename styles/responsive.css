@@ -84,6 +84,15 @@
     }
 
     /* Main-1 responsive close*/
+    /* Choose your destination start*/
+    .grid-cont1,.grid-cont2,.grid-cont3{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-cont2,.grid-cont3{
+        flex-direction: column;
+        
+    }
+    /* Choose your destination close */
     /* Main 2 (Why choose) start */
     .main2-flex {
         flex-direction: column;
@@ -131,6 +140,15 @@
         gap: 16px;
         margin-bottom: 0px;
 
+    }
+
+    .grid-cont1{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .grid-cont2,.grid-cont3{
+        flex-direction: column;
+        
     }
 
     /* Main-1 responsive */
