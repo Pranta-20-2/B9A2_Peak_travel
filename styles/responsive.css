@@ -128,7 +128,7 @@
         width: 100%;
     }
     .news-part{
-        width: 100%;
+        width: 80%;
     }
 
     .rotate {
@@ -138,6 +138,14 @@
         margin: 0;
         max-width: 1170px;
         width: 60%;
+    }
+    /* deals */
+    .cont1-item,.cont3-item,.cont2-item{
+        margin: 0px 16px;
+        justify-content: flex-end;
+    }
+    .deals-text,.deals-img{
+        flex-wrap: wrap;
     }
 }
 

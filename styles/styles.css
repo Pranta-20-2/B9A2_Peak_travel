@@ -247,6 +247,112 @@ main {
 }
 
 /* Choose Your Destination close */
+/* Deals and Discount start */
+
+.box1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+
+
+.deals-cont1 {
+    border-radius: 16px;
+    background: url("../Images/Deals1.png"), lightgray 50% / cover no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.deals-cont2 {
+    border-radius: 16px;
+    background: url("../Images/Deals2.png"), lightgray 50% / cover no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.deals-cont3 {
+    border-radius: 16px;
+    background: url("../Images/Deals1.png"), lightgray 50% / cover no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.cont1-item,
+.cont2-item,
+.cont3-item {
+
+    border-radius: 16px;
+    max-width: 579px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    width: fit-content;
+}
+
+.cont1-item {
+    margin-right: 56px;
+}
+
+.cont2-item {
+    margin-left: 56px;
+}
+
+.cont3-item {
+    margin-right: 56px;
+}
+
+.deals-text {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.deals-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.deals-des,
+.deals-img p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.deals-head {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deals-am {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* Deals and Discount close */
 
 /* Main 2 (Why choose) start */
 .main-2 {
@@ -305,7 +411,6 @@ main {
     align-items: center;
     display: flex;
     margin: 0 auto;
-    /* Centerize the box */
     justify-content: center;
     width: 100;
 }
@@ -393,12 +498,12 @@ hr {
     width: 50%;
     padding: 20px;
     border: 2px solid red;
+    border-radius: 16px;
 }
 
 .newslatter {
     position: relative;
     width: 50%;
-    border: 2px solid red;
     border-radius: 16px;
     background: url("../Images/news.png"), lightgray 50% / cover no-repeat;
     align-items: center;
@@ -416,12 +521,8 @@ hr {
 
 .rotate {
     position: absolute;
-    /* Position the rotated box absolutely within the relative container */
     top: 65%;
-    /* Adjust top position */
     left: 50%;
-    /* Adjust left position */
-    border: 2px solid red;
     text-align: center;
     margin: 0 auto;
     border-radius: 16px;
