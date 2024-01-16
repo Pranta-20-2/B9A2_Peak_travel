@@ -83,10 +83,14 @@ header {
 }
 
 .head-main {
-    margin-top: 50px;
-    height: 500px;
+    width: 80%;
+    max-width: 1170px;
+    margin: 50px auto 0;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed
 }
 
 .banner-content {
@@ -104,14 +108,16 @@ header {
 }
 
 .banner-title {
+    margin: 0;
     color: #FFF;
     font-size: 64px;
-    margin: 0;
-    padding: 106px 287px 24px;
+    padding: 32px 64px 8px;
     font-weight: 800;
 }
 
 .head-input input {
+    width: 80%;
+    max-width: 1170px;
     border-radius: 8px;
     background: #FFF;
     height: 52px;
@@ -121,88 +127,14 @@ header {
 
 
 .flat-display {
-    max-width: 800px;
-    height: 483px;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto 100px;
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
+    justify-content: center;
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    gap: 24px;
-    
-}
-
-/* Responsive for small */
-@media screen and (max-width: 600px) {
-    header {
-        max-width: 600px;
-        width:80%;
-        margin: 0 auto;
-        align-items: center;
-    }
-
-    .nav-bar {
-        width: 100%;
-        margin: 0;
-        padding: o;
-    }
-
-    .nav-list>ul {
-        display: none;
-    }
-
-    .head-main {
-        margin-top: 50px;
-        height:100%;
-        border-radius: 16px;
-        max-width: 600px;
-        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
-    }
-
-    .banner-title {
-        padding: 0;
-        font-size: 22px;
-        font-weight: 800;
-        padding: 32px 64px 0;
-    }
-
-    .banner-desc {
-        max-width: 304px;
-        width: 100%;
-        font-size: 14px;
-        font-weight: 400;
-        margin-bottom: 32px;
-
-    }
-
-    .menu {
-        display: grid;
-    }
-
-    .flat-display {
-        display: flex;
-        min-width: 287px;
-        width: 100%;
-        height: 100%;
-        padding: 16px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        margin: 0 auto;
-
-    }
-
-    .head-input input, button {
-        max-width: 600px;
-        height: 52px;
-        width: 80%;
-        flex-shrink: 0;
-        border-radius: 8px;
-        padding-left:20px ;
-        margin: 0 auto;
-        align-items: center;
-    }
 }
