@@ -191,7 +191,7 @@
         flex-wrap: wrap;
     }
     /* Extra Feature */
-    .item-extra{
+    .item-extra, .item-extra2, .item-extra3 {
         flex-direction: column;
     }
     .extra-image,.extra-pera {
@@ -317,7 +317,7 @@
 
     /* Choose your destination close */
      /* Extra Feature */
-     .item-extra{
+     .item-extra, .item-extra2, .item-extra3 {
         flex-direction: column;
     }
     .extra-image,.extra-pera {
