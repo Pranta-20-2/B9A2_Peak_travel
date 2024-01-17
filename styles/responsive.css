@@ -50,11 +50,16 @@
     }
 
     .head-input input {
-        width: fit-content;
+        max-width: 1170px;
+        width: 100%;
         border-radius: 8px;
         height: 52px;
         padding-left: 20px;
         border: none;
+    }
+    .when{
+        max-width: 1170px;
+        width: 100%;
     }
 
     .flat-display {
