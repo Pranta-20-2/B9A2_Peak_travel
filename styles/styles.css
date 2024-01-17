@@ -64,6 +64,17 @@ header {
     font-weight: 700;
 }
 
+/* .when {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1170px;
+    border-radius: 8px;
+    height: 52px;
+    border: none;
+} */
+
 .pick {
     color: #131318;
     font-size: 36px;
@@ -124,7 +135,14 @@ header {
     padding-left: 20px;
     border: none;
 }
-
+.when{
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    border-radius: 8px;
+    padding-right: 10px;
+    height: 55px;
+}
 
 .flat-display {
     width: 80%;
@@ -547,6 +565,7 @@ main {
     display: flex;
     gap: 20px;
 }
+
 .item-extra2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -557,6 +576,7 @@ main {
     display: flex;
     gap: 20px;
 }
+
 .item-extra3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
