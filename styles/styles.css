@@ -231,36 +231,42 @@ main {
 
 
 }
+
 .grid-cont6 {
     width: 673px;
     height: 286px;
-    max-width:1170px;
+    max-width: 1170px;
 }
+
 .grid-cont5 {
     width: 473px;
     height: 286px;
-    max-width:1170px;
+    max-width: 1170px;
 }
+
 .grid-cont4 {
     width: 274px;
     height: 286px;
-    max-width:1170px;
+    max-width: 1170px;
 }
+
 .grid-cont3 {
     width: 474px;
     height: 286px;
-    max-width:1170px;
+    max-width: 1170px;
 }
+
 .grid-cont2 {
     width: 374px;
     height: 100%;
-    max-height: 286px;;
-    max-width:1170px;
+    max-height: 286px;
+    ;
+    max-width: 1170px;
 }
 
 .grid-cont1 {
     width: 100%;
-    max-width:1170px;
+    max-width: 1170px;
 }
 
 .first-flex {
@@ -272,13 +278,15 @@ main {
     margin-bottom: 20px;
 
 }
-.img2{
+
+.img2 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle8.png"), lightgray 50% / cover no-repeat;
     height: 286px;
     max-height: 100%;
-    max-width: 1170px;  
+    max-width: 1170px;
 }
+
 .img1 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle5.png"), lightgray 50% / cover no-repeat;
@@ -288,6 +296,7 @@ main {
     max-width: 1170px;
 
 }
+
 .img3 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle6.png"), lightgray 50% / cover no-repeat;
@@ -296,6 +305,7 @@ main {
     width: 100%;
     max-width: 1170px;
 }
+
 .img4 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle7.png"), lightgray 50% / cover no-repeat;
@@ -304,6 +314,7 @@ main {
     max-width: 1170px;
 
 }
+
 .img5 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle9.png"), lightgray 50% / cover no-repeat;
@@ -311,6 +322,7 @@ main {
     max-height: 100%;
     max-width: 1170px;
 }
+
 .img6 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle11.png"), lightgray 50% / cover no-repeat;
@@ -318,6 +330,7 @@ main {
     max-height: 100%;
     max-width: 1170px;
 }
+
 .img7 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle10.png"), lightgray 50% / cover no-repeat;
@@ -325,6 +338,7 @@ main {
     max-height: 100%;
     max-width: 1170px;
 }
+
 .box {
     max-width: auto;
     align-items: center;
@@ -518,7 +532,61 @@ main {
 }
 
 /* Main 2 (Why choose) close */
+/* Extra Start */
+.extra-cont {
+    margin-bottom: 100px;
+}
 
+.item-extra {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    box-shadow: 5px 6px 5px rgba(251, 181, 99, 0.20);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.extra-image {
+    width: 50%;
+    height: 100%;
+}
+
+.extra-image img {
+    width: 100%;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.extra-pera {
+    width: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+.extra-star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.extra-am {
+    margin: 0 0 10px;
+}
+
+.extra-title {
+    color: #131318;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.des {
+    margin: 0;
+}
+
+/* Extra close */
 /* Simple start  */
 .simple {
     /* border: 2px solid red; */

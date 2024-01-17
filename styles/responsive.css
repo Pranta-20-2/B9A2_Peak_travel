@@ -190,6 +190,14 @@
     .deals-img {
         flex-wrap: wrap;
     }
+    /* Extra Feature */
+    .item-extra{
+        flex-direction: column;
+    }
+    .extra-image,.extra-pera {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /* Responsive for medium */
@@ -308,4 +316,12 @@
     }
 
     /* Choose your destination close */
+     /* Extra Feature */
+     .item-extra{
+        flex-direction: column;
+    }
+    .extra-image,.extra-pera {
+        width: 100%;
+        height: 100%;
+    }
 }
